@@ -60,11 +60,11 @@ export const AppShell: React.FC<AppShellProps> = ({
               onSelectTab('home');
               AudioService.playClickSound();
             }}
-            aria-label="Ir para o Início"
+            aria-label="Ir para o Início — Lumilo"
           >
             <AtriMascot size={40} expression="happy" />
             <div className={styles.brandTitles}>
-              <span className={styles.brandTitle}>Atratora Kids</span>
+              <span className={styles.brandTitle}>Lumilo</span>
             </div>
           </button>
 

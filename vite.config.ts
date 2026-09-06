@@ -19,14 +19,14 @@ export default defineConfig({
       ],
 
       manifest: {
-        name: 'Atratora Kids',
-        short_name: 'Atratora Kids',
+        name: 'Lumilo',
+        short_name: 'Lumilo',
 
         description:
-          'Aplicativo educacional infantil multilíngue para aprender letras, números, animais e brinquedos através de imagens, palavras e sons.',
+          'Lumilo: Aplicativo educacional infantil multilíngue para aprender letras, números, animais e brinquedos através de imagens, palavras e sons.',
 
-        theme_color: '#4F46E5',
-        background_color: '#FFFFFF',
+        theme_color: '#FBBF24',
+        background_color: '#FFFBF0',
 
         display: 'standalone',
         orientation: 'any',

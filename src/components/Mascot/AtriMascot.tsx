@@ -20,7 +20,7 @@ export const AtriMascot: React.FC<AtriMascotProps> = ({
       xmlns="http://www.w3.org/2000/svg"
       className={`atri-mascot ${className}`}
       style={{ display: 'inline-block', filter: 'drop-shadow(0 10px 20px rgba(99, 102, 241, 0.4))' }}
-      aria-label="Atri Mascote Estrela"
+      aria-label="Lumilo mascote estrela"
     >
       <defs>
         <linearGradient id="atriGrad" x1="20" y1="20" x2="180" y2="180" gradientUnits="userSpaceOnUse">

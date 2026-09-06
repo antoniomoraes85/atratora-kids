@@ -145,7 +145,7 @@ export class AudioService {
 
       osc.start();
       osc.stop(ctx.currentTime + 0.05);
-    } catch (e) {
+    } catch {
       // Silent catch
     }
   }
@@ -174,7 +174,7 @@ export class AudioService {
         osc.start(now + index * 0.08);
         osc.stop(now + index * 0.08 + 0.25);
       });
-    } catch (e) {
+    } catch {
       // Silent catch
     }
   }
@@ -200,7 +200,7 @@ export class AudioService {
 
       osc.start();
       osc.stop(now + 0.25);
-    } catch (e) {
+    } catch {
       // Silent catch
     }
   }

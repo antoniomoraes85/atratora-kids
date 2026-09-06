@@ -15,7 +15,7 @@ interface NavigationProps {
   variant: 'bottom' | 'desktopHeader' | 'desktopSidebar';
 }
 
-export const NAV_ITEMS: Array<{ id: RouteTab; label: { 'pt-BR': string; 'en-US': string; 'es-ES': string }; icon: React.ComponentType<{ size?: number }> }> = [
+const NAV_ITEMS: Array<{ id: RouteTab; label: { 'pt-BR': string; 'en-US': string; 'es-ES': string }; icon: React.ComponentType<{ size?: number }> }> = [
   { id: 'home', label: { 'pt-BR': 'Início', 'en-US': 'Home', 'es-ES': 'Inicio' }, icon: Home },
   { id: 'alphabet', label: { 'pt-BR': 'Alfabeto', 'en-US': 'Alphabet', 'es-ES': 'Alfabeto' }, icon: Type },
   { id: 'numbers', label: { 'pt-BR': 'Números', 'en-US': 'Numbers', 'es-ES': 'Números' }, icon: Hash },
