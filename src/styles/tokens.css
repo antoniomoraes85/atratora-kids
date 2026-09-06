@@ -1,0 +1,69 @@
+/* Design Tokens for ATRATORA KIDS — ABC */
+:root {
+  /* Color Palette - Vibrant, High Contrast, Playful & Premium Dark Mode */
+  --bg-primary: #0F172A;
+  --bg-secondary: #1E293B;
+  --bg-card: #1E293B;
+  --bg-card-hover: #334155;
+  --bg-glass: rgba(30, 41, 59, 0.85);
+
+  --color-brand-primary: #6366F1;
+  --color-brand-primary-hover: #4F46E5;
+  --color-brand-accent: #EC4899;
+  --color-brand-yellow: #F59E0B;
+  --color-brand-green: #10B981;
+  --color-brand-blue: #06B6D4;
+
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  --text-inverse: #0F172A;
+
+  --border-color: rgba(255, 255, 255, 0.1);
+  --border-active: #818CF8;
+
+  /* Spacing System */
+  --spacing-xs: 0.25rem;  /* 4px */
+  --spacing-sm: 0.5rem;   /* 8px */
+  --spacing-md: 1rem;     /* 16px */
+  --spacing-lg: 1.5rem;   /* 24px */
+  --spacing-xl: 2rem;     /* 32px */
+  --spacing-2xl: 3rem;    /* 48px */
+
+  /* Border Radii */
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-full: 9999px;
+
+  /* Typography Scales (Using fluid clamp) */
+  --font-heading: 'Fredoka', 'Outfit', system-ui, sans-serif;
+  --font-body: 'Outfit', 'Fredoka', system-ui, sans-serif;
+
+  --font-size-sm: clamp(0.875rem, 1.5vw, 1rem);
+  --font-size-body: clamp(1rem, 2vw, 1.25rem);
+  --font-size-title: clamp(1.5rem, 4vw, 2.5rem);
+  --font-size-display: clamp(2.5rem, 8vw, 4.5rem);
+  --font-size-hero: clamp(4rem, 15vw, 10rem);
+
+  /* Touch Target Minimums */
+  --touch-target-min: 44px;
+  --touch-target-child: 56px;
+
+  /* Safe Area Insets (iOS / PWA) */
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+
+  /* Shadows & Glows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.4);
+  --glow-primary: 0 0 20px rgba(99, 102, 241, 0.4);
+  --glow-yellow: 0 0 20px rgba(245, 158, 11, 0.4);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: 300ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}

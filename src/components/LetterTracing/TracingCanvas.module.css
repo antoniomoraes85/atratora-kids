@@ -1,0 +1,88 @@
+.tracingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.canvasHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 var(--spacing-sm);
+}
+
+.letterInfo {
+  display: flex;
+  align-items: baseline;
+  gap: var(--spacing-sm);
+}
+
+.bigLetter {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--color-brand-yellow);
+}
+
+.smallLetter {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.actionButtons {
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+.iconBtn {
+  min-width: var(--touch-target-child);
+  min-height: var(--touch-target-child);
+  background: var(--bg-card);
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-full);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: transform var(--transition-bounce), background-color var(--transition-fast);
+}
+
+.iconBtn:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--color-brand-primary);
+
+}
+
+.canvasWrapper {
+  width: 100%;
+  max-width: 480px;
+  aspect-ratio: 1 / 1;
+  background: var(--bg-card);
+  border: 4px dashed var(--border-color);
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xs);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+  touch-action: none; /* Prevents page scrolling ONLY inside drawing canvas */
+  cursor: crosshair;
+  border-radius: var(--radius-md);
+}
+
+.instructionText {
+  font-size: var(--font-size-body);
+  color: var(--text-secondary);
+  text-align: center;
+}

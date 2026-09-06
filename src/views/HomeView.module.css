@@ -1,0 +1,180 @@
+.homeContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  padding: var(--spacing-xl) var(--spacing-md);
+}
+
+/* === PARALLAX BACKGROUND === */
+.parallaxBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(180deg, #E0F2FE 0%, #BAE6FD 100%);
+  overflow: hidden;
+}
+
+.cloud {
+  position: absolute;
+  background: #FFF;
+  border-radius: 100px;
+  opacity: 0.8;
+  filter: blur(1px);
+}
+.cloud::before, .cloud::after {
+  content: '';
+  position: absolute;
+  background: #FFF;
+  border-radius: 50%;
+}
+
+.cloud1 {
+  width: 120px; height: 40px; top: 10%; left: 10%;
+  animation: floatCloud 25s linear infinite;
+}
+.cloud1::before { width: 50px; height: 50px; top: -20px; left: 15px; }
+.cloud1::after { width: 60px; height: 60px; top: -30px; right: 15px; }
+
+.cloud2 {
+  width: 80px; height: 25px; top: 30%; right: 15%;
+  animation: floatCloud 35s linear infinite reverse;
+}
+.cloud2::before { width: 35px; height: 35px; top: -15px; left: 10px; }
+.cloud2::after { width: 45px; height: 45px; top: -20px; right: 10px; }
+
+.cloud3 {
+  width: 150px; height: 50px; top: 60%; left: 20%;
+  animation: floatCloud 45s linear infinite;
+}
+.cloud3::before { width: 60px; height: 60px; top: -30px; left: 20px; }
+.cloud3::after { width: 80px; height: 80px; top: -40px; right: 20px; }
+
+@keyframes floatCloud {
+  0% { transform: translateX(0) scale(1); }
+  50% { transform: translateX(30px) scale(1.05); }
+  100% { transform: translateX(0) scale(1); }
+}
+
+.sun {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 100px;
+  height: 100px;
+  background: #FDE047;
+  border-radius: 50%;
+  box-shadow: 0 0 40px #FEF08A;
+  animation: pulseSun 4s ease-in-out infinite;
+}
+
+@keyframes pulseSun {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 40px #FEF08A; }
+  50% { transform: scale(1.1); box-shadow: 0 0 60px #FEF08A, 0 0 20px #FDE047 inset; }
+}
+
+/* === FOREGROUND === */
+.contentLayer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-2xl);
+  width: 100%;
+  max-width: 800px;
+  z-index: 1;
+}
+
+.logoWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--spacing-sm);
+}
+
+.mainLogo {
+  width: clamp(180px, 45vw, 400px);
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 15px rgba(0,0,0,0.2));
+  animation: floatUpDown 4s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(1deg); }
+}
+
+.greeting {
+  font-family: var(--font-heading);
+  font-size: clamp(1.25rem, 4vw, 1.75rem);
+  font-weight: 700;
+  color: #1E3A8A;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-full);
+  box-shadow: var(--shadow-sm);
+  backdrop-filter: blur(4px);
+}
+
+/* === MODALITIES GRID === */
+.actionsSection {
+  width: 100%;
+}
+
+.actionsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-lg);
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .actionsGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.actionCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-md);
+  background: #FFFFFF;
+  border: 4px solid var(--action-color);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-xl) var(--spacing-md);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1), inset 0 -6px 0 rgba(0,0,0,0.05);
+  cursor: pointer;
+  transition: transform var(--transition-bounce), box-shadow var(--transition-fast);
+}
+
+.actionCard:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15), inset 0 -4px 0 rgba(0,0,0,0.05);
+}
+
+.actionCard:active {
+  transform: translateY(2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.cardIcon {
+  font-size: clamp(3.5rem, 8vw, 5rem);
+  line-height: 1;
+}
+
+.cardLabel {
+  font-family: var(--font-heading);
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  font-weight: 800;
+  color: var(--text-primary);
+  text-align: center;
+}

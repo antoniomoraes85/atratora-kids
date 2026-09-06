@@ -1,0 +1,117 @@
+/* Mobile Bottom Navigation Bar */
+.bottomNav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: calc(64px + var(--safe-bottom));
+  padding-bottom: var(--safe-bottom);
+  background: var(--bg-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 100;
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.bottomNavItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  height: 100%;
+  color: var(--text-secondary);
+  background: transparent;
+  border: none;
+  font-size: 0.75rem;
+  font-weight: 600;
+  transition: color var(--transition-fast), transform var(--transition-fast);
+}
+
+.bottomNavItem:hover {
+  color: var(--text-primary);
+}
+
+.activeItem {
+  color: var(--color-brand-yellow) !important;
+  font-weight: 700;
+}
+
+.navLabel {
+  white-space: nowrap;
+}
+
+/* Desktop Top Navigation */
+.desktopNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: var(--spacing-md);
+}
+
+.navLinksGroup {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.desktopNavItem {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-xs) var(--spacing-md);
+  height: 44px;
+  border-radius: var(--radius-full);
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: var(--font-size-body);
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.desktopNavItem:hover {
+  background: var(--bg-card-hover);
+  color: var(--text-primary);
+}
+
+.desktopNavItem.activeItem {
+  background: var(--color-brand-primary);
+  color: #FFFFFF !important;
+  box-shadow: var(--shadow-sm);
+}
+
+.controlsGroup {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.controlBtn {
+  min-width: 44px;
+  height: 44px;
+  padding: 0 var(--spacing-sm);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-full);
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  cursor: pointer;
+  transition: background-color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.controlBtn:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--color-brand-primary);
+}
+
+.controlText {
+  font-weight: 700;
+  font-size: 0.875rem;
+}

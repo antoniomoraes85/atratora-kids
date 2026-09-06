@@ -1,0 +1,56 @@
+.keyboardContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: var(--spacing-sm);
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--spacing-sm);
+}
+
+/* Tablet (768px+) */
+@media (min-width: 601px) {
+  .keyboardContainer {
+    grid-template-columns: repeat(8, 1fr);
+    gap: var(--spacing-md);
+  }
+}
+
+/* Desktop (1025px+) */
+@media (min-width: 1025px) {
+  .keyboardContainer {
+    grid-template-columns: repeat(9, 1fr);
+  }
+}
+
+.keyButton {
+  min-height: var(--touch-target-child);
+  min-width: var(--touch-target-min);
+  padding: var(--spacing-sm);
+  background: var(--bg-card);
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-family: var(--font-heading);
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  font-weight: 700;
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  user-select: none;
+  transition: transform var(--transition-bounce), background-color var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.keyButton:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--color-brand-primary);
+  transform: translateY(-2px);
+}
+
+.keyButton:active,
+.activeKey {
+  background: var(--color-brand-primary) !important;
+  border-color: var(--color-brand-yellow) !important;
+  color: #FFFFFF !important;
+  transform: scale(0.95) !important;
+  box-shadow: var(--glow-primary) !important;
+}
