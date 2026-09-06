@@ -14,4 +14,8 @@ Este documento lista todas as licenças dos recursos multimídia (imagens, ícon
 - **Text-to-Speech (Vozes)**: Utiliza a API `window.speechSynthesis` nativa do navegador, sem custos adicionais de licenciamento, e cujas vozes e distribuição pertencem ao motor instalado no dispositivo do usuário (ex: Siri no iOS, Google TTS no Android, Narrator no Windows).
 
 ## Políticas de Privacidade
-Todo o processamento deste aplicativo, incluindo gravação de progresso, sons sintetizados e vozes geradas por texto, ocorre 100% de maneira **OFFLINE** e localmente através de `localStorage` e Web APIs. Nenhum dado de telemetria, cookies, trackers, identificadores de publicidade (IDFA/AAID) ou analytics são utilizados ou enviados para a rede, garantindo a conformidade total com a COPPA, GDPR-K, e LGPD (seção infanto-juvenil).
+O aplicativo armazena o progresso localmente (sem conta, sem login e sem backend). Nenhum analytics, tracker ou telemetria está implementado, não havendo envio intencional de progresso infantil ao servidor.
+
+O uso da API de síntese de voz (Text-to-Speech) depende do navegador, sistema operacional e vozes instaladas. Seu funcionamento offline não é garantido universalmente.
+
+Quaisquer requisitos legais e de privacidade (como COPPA, GDPR-K, e LGPD) deverão ser reavaliados antes de qualquer distribuição comercial ou coleta futura de dados.
