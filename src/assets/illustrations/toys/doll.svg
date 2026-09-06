@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Dress -->
+  <path d="M35 68 Q24 90 20 112 L100 112 Q96 90 85 68 Z" fill="#F9A8D4"/>
+  <path d="M42 68 Q36 85 34 112 L86 112 Q84 85 78 68 Z" fill="#FBCFE8"/>
+  <!-- Body/torso -->
+  <rect x="40" y="54" width="40" height="20" rx="8" fill="#FDDCBC"/>
+  <!-- Collar -->
+  <path d="M40 54 Q60 62 80 54" stroke="#F9A8D4" stroke-width="3" fill="none"/>
+  <!-- Head -->
+  <circle cx="60" cy="38" r="22" fill="#FDDCBC"/>
+  <!-- Hair -->
+  <ellipse cx="60" cy="20" rx="22" ry="12" fill="#F59E0B"/>
+  <ellipse cx="38" cy="38" rx="8" ry="14" fill="#F59E0B"/>
+  <ellipse cx="82" cy="38" rx="8" ry="14" fill="#F59E0B"/>
+  <!-- Braids/pigtails -->
+  <path d="M42 30 Q34 24 30 32" stroke="#F59E0B" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M78 30 Q86 24 90 32" stroke="#F59E0B" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- Eyes -->
+  <circle cx="52" cy="36" r="4.5" fill="#1E293B"/>
+  <circle cx="68" cy="36" r="4.5" fill="#1E293B"/>
+  <circle cx="53.5" cy="34.5" r="1.8" fill="white"/>
+  <circle cx="69.5" cy="34.5" r="1.8" fill="white"/>
+  <!-- Eyelashes top -->
+  <path d="M48 32 Q52 30 55 32" stroke="#1E293B" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M64 32 Q68 30 71 32" stroke="#1E293B" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Nose -->
+  <circle cx="60" cy="40" r="2" fill="#F4A261" opacity="0.7"/>
+  <!-- Smile -->
+  <path d="M54 44 Q60 50 66 44" stroke="#E86A4A" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Cheeks -->
+  <ellipse cx="44" cy="42" rx="6" ry="4" fill="#F87171" opacity="0.4"/>
+  <ellipse cx="76" cy="42" rx="6" ry="4" fill="#F87171" opacity="0.4"/>
+  <!-- Ribbon bows -->
+  <path d="M42 26 Q36 22 34 28 Q36 34 42 30" fill="#EC4899"/>
+  <path d="M78 26 Q84 22 86 28 Q84 34 78 30" fill="#EC4899"/>
+  <!-- Shoes -->
+  <ellipse cx="42" cy="113" rx="10" ry="5" fill="#EC4899"/>
+  <ellipse cx="78" cy="113" rx="10" ry="5" fill="#EC4899"/>
+</svg>

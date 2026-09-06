@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Shadow -->
+  <ellipse cx="60" cy="115" rx="28" ry="5" fill="#0F172A" opacity="0.12"/>
+  <!-- Body -->
+  <ellipse cx="60" cy="76" rx="30" ry="32" fill="#D97706"/>
+  <!-- Belly -->
+  <ellipse cx="60" cy="82" rx="18" ry="20" fill="#FDE68A"/>
+  <!-- Head -->
+  <circle cx="60" cy="42" r="26" fill="#D97706"/>
+  <!-- Ears -->
+  <circle cx="36" cy="24" r="10" fill="#D97706"/>
+  <circle cx="84" cy="24" r="10" fill="#D97706"/>
+  <circle cx="36" cy="24" r="6" fill="#FCA5A5"/>
+  <circle cx="84" cy="24" r="6" fill="#FCA5A5"/>
+  <!-- Face -->
+  <ellipse cx="60" cy="50" rx="14" ry="11" fill="#FDE68A"/>
+  <!-- Eyes (button eyes) -->
+  <circle cx="50" cy="36" r="6" fill="#1E293B"/>
+  <circle cx="70" cy="36" r="6" fill="#1E293B"/>
+  <circle cx="48.5" cy="34.5" r="2.5" fill="white"/>
+  <circle cx="68.5" cy="34.5" r="2.5" fill="white"/>
+  <!-- Nose (button) -->
+  <circle cx="60" cy="47" r="4" fill="#374151"/>
+  <circle cx="60" cy="47" r="1.5" fill="#6B7280"/>
+  <!-- Smile stitching -->
+  <path d="M52 54 Q60 62 68 54" stroke="#1E293B" stroke-width="2" fill="none" stroke-linecap="round" stroke-dasharray="3 2"/>
+  <!-- Cheeks -->
+  <ellipse cx="42" cy="50" rx="7" ry="5" fill="#F87171" opacity="0.4"/>
+  <ellipse cx="78" cy="50" rx="7" ry="5" fill="#F87171" opacity="0.4"/>
+  <!-- Arms -->
+  <ellipse cx="28" cy="72" rx="10" ry="18" fill="#D97706" transform="rotate(-15 28 72)"/>
+  <ellipse cx="92" cy="72" rx="10" ry="18" fill="#D97706" transform="rotate(15 92 72)"/>
+  <!-- Paws -->
+  <circle cx="22" cy="86" r="8" fill="#B45309"/>
+  <circle cx="98" cy="86" r="8" fill="#B45309"/>
+  <!-- Legs -->
+  <ellipse cx="42" cy="106" rx="12" ry="10" fill="#D97706"/>
+  <ellipse cx="78" cy="106" rx="12" ry="10" fill="#D97706"/>
+  <!-- Feet paws -->
+  <circle cx="42" cy="113" r="7" fill="#B45309"/>
+  <circle cx="78" cy="113" r="7" fill="#B45309"/>
+  <!-- Bow tie on neck -->
+  <path d="M50 62 L60 68 L70 62 L60 68 Z" fill="#EF4444"/>
+  <circle cx="60" cy="65" r="3" fill="#DC2626"/>
+</svg>

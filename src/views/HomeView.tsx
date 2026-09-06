@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { AudioService } from '../services/AudioService';
 import type { RouteTab } from '../components/Navigation/Navigation';
 import styles from './HomeView.module.css';
-import lumuloLogo from '../assets/brand/lumilo-logo.svg';
+import lumiloLogo from '../assets/brand/lumilo-logo-master.png';
 
 interface HomeViewProps {
   onSelectTab: (tab: RouteTab) => void;
@@ -146,8 +146,8 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSelectTab, language }) => 
         {/* Logo */}
         <header className={styles.logoWrapper}>
           <img
-            src={lumuloLogo}
-            alt="Lumilo"
+            src={lumiloLogo}
+            alt="Lumilo — Aprender é descobrir"
             className={styles.mainLogo}
           />
         </header>

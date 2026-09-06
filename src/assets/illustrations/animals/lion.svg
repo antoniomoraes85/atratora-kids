@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Mane -->
+  <circle cx="60" cy="50" r="36" fill="#D97706"/>
+  <!-- Body -->
+  <ellipse cx="60" cy="82" rx="30" ry="26" fill="#FBBF24"/>
+  <!-- Head -->
+  <circle cx="60" cy="48" r="26" fill="#FBBF24"/>
+  <!-- Inner mane -->
+  <circle cx="60" cy="48" r="20" fill="#FBBF24"/>
+  <!-- Muzzle -->
+  <ellipse cx="60" cy="55" rx="13" ry="10" fill="#FDE68A"/>
+  <!-- Eyes -->
+  <circle cx="51" cy="43" r="5.5" fill="#1E293B"/>
+  <circle cx="69" cy="43" r="5.5" fill="#1E293B"/>
+  <circle cx="49" cy="41" r="2.5" fill="#FBBF24"/>
+  <circle cx="67" cy="41" r="2.5" fill="#FBBF24"/>
+  <circle cx="50" cy="42" r="1.5" fill="white"/>
+  <circle cx="68" cy="42" r="1.5" fill="white"/>
+  <!-- Nose -->
+  <path d="M55 51 L65 51 L60 55 Z" fill="#D97706"/>
+  <!-- Mouth -->
+  <path d="M53 56 Q60 63 67 56" stroke="#D97706" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Cheeks -->
+  <ellipse cx="43" cy="54" rx="7" ry="5" fill="#F87171" opacity="0.35"/>
+  <ellipse cx="77" cy="54" rx="7" ry="5" fill="#F87171" opacity="0.35"/>
+  <!-- Ears -->
+  <polygon points="38,26 30,10 50,26" fill="#FBBF24"/>
+  <polygon points="82,26 90,10 70,26" fill="#FBBF24"/>
+  <polygon points="40,26 34,14 50,26" fill="#FDE68A"/>
+  <polygon points="80,26 86,14 70,26" fill="#FDE68A"/>
+  <!-- Paws -->
+  <ellipse cx="40" cy="100" rx="10" ry="8" fill="#FBBF24"/>
+  <ellipse cx="80" cy="100" rx="10" ry="8" fill="#FBBF24"/>
+  <!-- Tail -->
+  <path d="M90 80 Q112 70 108 54" stroke="#FBBF24" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <circle cx="106" cy="51" r="7" fill="#D97706"/>
+</svg>
