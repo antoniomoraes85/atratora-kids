@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Shadow -->
+  <ellipse cx="60" cy="116" rx="28" ry="4" fill="#0F172A" opacity="0.12"/>
+  <!-- Bear body -->
+  <ellipse cx="60" cy="82" rx="30" ry="28" fill="#92400E"/>
+  <!-- Belly -->
+  <ellipse cx="60" cy="88" rx="18" ry="18" fill="#FDE68A"/>
+  <!-- Head -->
+  <circle cx="60" cy="48" r="26" fill="#92400E"/>
+  <!-- Ears -->
+  <circle cx="36" cy="28" r="11" fill="#92400E"/>
+  <circle cx="84" cy="28" r="11" fill="#92400E"/>
+  <circle cx="36" cy="28" r="7" fill="#FCA5A5"/>
+  <circle cx="84" cy="28" r="7" fill="#FCA5A5"/>
+  <!-- Face snout -->
+  <ellipse cx="60" cy="56" rx="14" ry="11" fill="#FDE68A"/>
+  <!-- Eyes -->
+  <circle cx="50" cy="42" r="6" fill="#1E293B"/>
+  <circle cx="70" cy="42" r="6" fill="#1E293B"/>
+  <circle cx="48" cy="40" r="2.5" fill="white"/>
+  <circle cx="68" cy="40" r="2.5" fill="white"/>
+  <!-- Nose -->
+  <ellipse cx="60" cy="52" rx="5" ry="3.5" fill="#374151"/>
+  <ellipse cx="60" cy="51" rx="2" ry="1.5" fill="#6B7280"/>
+  <!-- Mouth / smile -->
+  <path d="M52 58 Q60 66 68 58" stroke="#1E293B" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Cheeks -->
+  <ellipse cx="42" cy="54" rx="7" ry="5" fill="#F87171" opacity="0.4"/>
+  <ellipse cx="78" cy="54" rx="7" ry="5" fill="#F87171" opacity="0.4"/>
+  <!-- Arms -->
+  <ellipse cx="28" cy="76" rx="10" ry="18" fill="#92400E" transform="rotate(-15 28 76)"/>
+  <ellipse cx="92" cy="76" rx="10" ry="18" fill="#92400E" transform="rotate(15 92 76)"/>
+  <!-- Paws -->
+  <circle cx="22" cy="90" r="8" fill="#713F12"/>
+  <circle cx="98" cy="90" r="8" fill="#713F12"/>
+  <!-- Legs -->
+  <ellipse cx="42" cy="108" rx="13" ry="10" fill="#92400E"/>
+  <ellipse cx="78" cy="108" rx="13" ry="10" fill="#92400E"/>
+  <circle cx="42" cy="115" r="7" fill="#713F12"/>
+  <circle cx="78" cy="115" r="7" fill="#713F12"/>
+</svg>

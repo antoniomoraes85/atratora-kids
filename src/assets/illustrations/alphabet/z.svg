@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Shadow -->
+  <ellipse cx="60" cy="116" rx="36" ry="4" fill="#0F172A" opacity="0.12"/>
+  <!-- Zebra body -->
+  <ellipse cx="60" cy="82" rx="36" ry="26" fill="white"/>
+  <!-- Body stripes -->
+  <path d="M40 60 Q44 80 40 100" stroke="#1E293B" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M52 57 Q56 80 52 104" stroke="#1E293B" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M64 57 Q68 80 64 104" stroke="#1E293B" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M76 58 Q80 80 76 102" stroke="#1E293B" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- Head -->
+  <ellipse cx="30" cy="50" rx="22" ry="16" fill="white"/>
+  <!-- Head stripes -->
+  <path d="M18 44 Q30 46 40 44" stroke="#1E293B" stroke-width="4" fill="none"/>
+  <path d="M16 52 Q28 54 42 52" stroke="#1E293B" stroke-width="4" fill="none"/>
+  <!-- Snout -->
+  <ellipse cx="14" cy="54" rx="12" ry="8" fill="#FDE68A"/>
+  <!-- Nostril -->
+  <circle cx="10" cy="55" r="2" fill="#1E293B"/>
+  <circle cx="16" cy="56" r="2" fill="#1E293B"/>
+  <!-- Eye -->
+  <circle cx="28" cy="44" r="6" fill="white"/>
+  <circle cx="28" cy="44" r="4" fill="#1E293B"/>
+  <circle cx="26" cy="42" r="1.5" fill="white"/>
+  <!-- Ear -->
+  <ellipse cx="36" cy="34" rx="5" ry="8" fill="white"/>
+  <path d="M32 28 L36 24 L40 28" fill="#1E293B"/>
+  <ellipse cx="36" cy="34" rx="2.5" ry="5" fill="#FCA5A5"/>
+  <!-- Mane -->
+  <path d="M36 34 Q44 50 48 70" stroke="#1E293B" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Legs -->
+  <rect x="34" y="98" width="11" height="18" rx="5" fill="white"/>
+  <path d="M34 100 L45 100 L45 116 L34 116" fill="none" stroke="#1E293B" stroke-width="3"/>
+  <rect x="48" y="100" width="11" height="16" rx="5" fill="white"/>
+  <path d="M48 102 L59 102 L59 116 L48 116" fill="none" stroke="#1E293B" stroke-width="3"/>
+  <rect x="64" y="100" width="11" height="16" rx="5" fill="white"/>
+  <path d="M64 102 L75 102 L75 116 L64 116" fill="none" stroke="#1E293B" stroke-width="3"/>
+  <rect x="78" y="98" width="11" height="18" rx="5" fill="white"/>
+  <path d="M78 100 L89 100 L89 116 L78 116" fill="none" stroke="#1E293B" stroke-width="3"/>
+  <!-- Hooves -->
+  <ellipse cx="40" cy="114" rx="7" ry="4" fill="#374151"/>
+  <ellipse cx="54" cy="114" rx="7" ry="4" fill="#374151"/>
+  <ellipse cx="70" cy="114" rx="7" ry="4" fill="#374151"/>
+  <ellipse cx="84" cy="114" rx="7" ry="4" fill="#374151"/>
+  <!-- Tail -->
+  <path d="M96 78 Q108 72 106 86" stroke="#1E293B" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M106 86 Q112 90 108 96" stroke="#1E293B" stroke-width="6" stroke-linecap="round" fill="none"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Ball shadow -->
+  <ellipse cx="60" cy="112" rx="30" ry="6" fill="#0F172A" opacity="0.12"/>
+  <!-- Ball body -->
+  <circle cx="60" cy="62" r="46" fill="#EF4444"/>
+  <!-- Ball shine -->
+  <circle cx="44" cy="44" r="14" fill="white" opacity="0.15"/>
+  <!-- Panel lines -->
+  <path d="M14 62 Q60 44 106 62" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M14 62 Q60 80 106 62" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M60 16 L60 108" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <!-- Pentagon patches -->
+  <path d="M60 16 L70 26 L66 38 L54 38 L50 26 Z" fill="#1E293B" opacity="0.7"/>
+  <path d="M60 108 L70 98 L66 86 L54 86 L50 98 Z" fill="#1E293B" opacity="0.7"/>
+  <path d="M14 62 L22 52 L34 56 L34 68 L22 72 Z" fill="#1E293B" opacity="0.7"/>
+  <path d="M106 62 L98 52 L86 56 L86 68 L98 72 Z" fill="#1E293B" opacity="0.7"/>
+</svg>

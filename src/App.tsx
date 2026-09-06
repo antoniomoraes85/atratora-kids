@@ -7,7 +7,7 @@ import { AudioService } from './services/AudioService';
 // Lazy loading activities to reduce initial bundle
 import { HomeView } from './views/HomeView';
 import { LearningItemView } from './components/LearningItemView/LearningItemView';
-import { ALPHABET_DATA } from './data/alphabet_new';
+import { ALPHABET_DATA } from './data/alphabet';
 import { NUMBERS_DATA } from './data/numbers';
 import { ANIMALS_DATA } from './data/animals';
 import { TOYS_DATA } from './data/toys';

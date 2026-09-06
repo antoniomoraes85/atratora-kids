@@ -142,7 +142,7 @@ export const TracingCanvas: React.FC<TracingCanvasProps> = ({ item, onComplete }
     if (!isDrawing) return;
     try {
       e.currentTarget.releasePointerCapture(e.pointerId);
-    } catch (err) {
+    } catch {
       // Ignore if pointer capture lost
     }
     setIsDrawing(false);

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Shadow -->
+  <ellipse cx="60" cy="116" rx="36" ry="4" fill="#0F172A" opacity="0.12"/>
+  <!-- Cheese wedge body -->
+  <path d="M10 90 L60 20 L110 90 Z" fill="#FBBF24"/>
+  <!-- Cheese back face -->
+  <path d="M10 90 L110 90 L110 106 L10 106 Z" fill="#D97706"/>
+  <!-- Holes in cheese -->
+  <circle cx="44" cy="72" r="10" fill="#D97706"/>
+  <circle cx="44" cy="72" r="8" fill="#F59E0B"/>
+  <circle cx="72" cy="60" r="8" fill="#D97706"/>
+  <circle cx="72" cy="60" r="6" fill="#F59E0B"/>
+  <circle cx="84" cy="80" r="9" fill="#D97706"/>
+  <circle cx="84" cy="80" r="7" fill="#F59E0B"/>
+  <circle cx="56" cy="50" r="6" fill="#D97706"/>
+  <circle cx="56" cy="50" r="4" fill="#F59E0B"/>
+  <!-- Cheese rind edge -->
+  <path d="M10 90 L60 20 L110 90" stroke="#D97706" stroke-width="3" fill="none" stroke-linejoin="round"/>
+  <!-- Shine on top -->
+  <path d="M52 30 Q60 24 68 32" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.4"/>
+  <ellipse cx="38" cy="55" rx="8" ry="5" fill="white" opacity="0.15"/>
+</svg>

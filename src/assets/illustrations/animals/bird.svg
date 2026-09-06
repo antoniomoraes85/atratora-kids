@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Wings spread -->
+  <ellipse cx="20" cy="58" rx="18" ry="12" fill="#60A5FA" transform="rotate(-20 20 58)"/>
+  <ellipse cx="100" cy="58" rx="18" ry="12" fill="#3B82F6" transform="rotate(20 100 58)"/>
+  <!-- Body -->
+  <ellipse cx="60" cy="68" rx="22" ry="28" fill="#2563EB"/>
+  <!-- Belly -->
+  <ellipse cx="60" cy="72" rx="14" ry="18" fill="#93C5FD"/>
+  <!-- Head -->
+  <circle cx="60" cy="40" r="20" fill="#2563EB"/>
+  <!-- Beak -->
+  <polygon points="52,46 68,46 60,58" fill="#FBBF24"/>
+  <!-- Eyes -->
+  <circle cx="50" cy="34" r="6" fill="white"/>
+  <circle cx="70" cy="34" r="6" fill="white"/>
+  <circle cx="50" cy="34" r="3.5" fill="#1E293B"/>
+  <circle cx="70" cy="34" r="3.5" fill="#1E293B"/>
+  <circle cx="51" cy="33" r="1.5" fill="white"/>
+  <circle cx="71" cy="33" r="1.5" fill="white"/>
+  <!-- Crest feathers -->
+  <ellipse cx="54" cy="23" rx="3" ry="7" fill="#60A5FA" transform="rotate(-10 54 23)"/>
+  <ellipse cx="60" cy="21" rx="3" ry="7" fill="#3B82F6"/>
+  <ellipse cx="66" cy="23" rx="3" ry="7" fill="#60A5FA" transform="rotate(10 66 23)"/>
+  <!-- Tail feathers -->
+  <ellipse cx="50" cy="94" rx="5" ry="12" fill="#1D4ED8" transform="rotate(-20 50 94)"/>
+  <ellipse cx="60" cy="96" rx="5" ry="12" fill="#2563EB"/>
+  <ellipse cx="70" cy="94" rx="5" ry="12" fill="#1D4ED8" transform="rotate(20 70 94)"/>
+  <!-- Feet -->
+  <path d="M46 102 L38 110 M46 102 L44 112 M46 102 L52 110" stroke="#FBBF24" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M74 102 L66 110 M74 102 L72 112 M74 102 L80 110" stroke="#FBBF24" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

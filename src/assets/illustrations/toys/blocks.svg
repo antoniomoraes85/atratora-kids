@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Block A (red, back-left) -->
+  <rect x="8" y="54" width="42" height="42" rx="6" fill="#EF4444"/>
+  <rect x="8" y="54" width="42" height="12" rx="6" fill="#FCA5A5"/>
+  <!-- Block A letter -->
+  <text x="29" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, system-ui, sans-serif" font-size="22" font-weight="800" fill="white">A</text>
+  <!-- Block B (blue, back-right) -->
+  <rect x="70" y="54" width="42" height="42" rx="6" fill="#3B82F6"/>
+  <rect x="70" y="54" width="42" height="12" rx="6" fill="#93C5FD"/>
+  <!-- Block B letter -->
+  <text x="91" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, system-ui, sans-serif" font-size="22" font-weight="800" fill="white">B</text>
+  <!-- Block C (green, front) -->
+  <rect x="39" y="72" width="42" height="42" rx="6" fill="#22C55E"/>
+  <rect x="39" y="72" width="42" height="12" rx="6" fill="#86EFAC"/>
+  <!-- Block C letter -->
+  <text x="60" y="103" text-anchor="middle" font-family="Arial Rounded MT Bold, system-ui, sans-serif" font-size="22" font-weight="800" fill="white">C</text>
+  <!-- Block top face A (red) -->
+  <rect x="8" y="44" width="42" height="12" rx="4" fill="#DC2626"/>
+  <!-- Block top face B (blue) -->
+  <rect x="70" y="44" width="42" height="12" rx="4" fill="#2563EB"/>
+  <!-- Block top face C (green) -->
+  <rect x="39" y="62" width="42" height="12" rx="4" fill="#16A34A"/>
+  <!-- Stars on blocks -->
+  <circle cx="18" cy="80" r="3" fill="white" opacity="0.4"/>
+  <circle cx="102" cy="80" r="3" fill="white" opacity="0.4"/>
+</svg>

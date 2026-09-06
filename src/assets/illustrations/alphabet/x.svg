@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Shadow -->
+  <ellipse cx="60" cy="116" rx="30" ry="4" fill="#0F172A" opacity="0.12"/>
+  <!-- Cup body -->
+  <path d="M28 40 L36 100 L84 100 L92 40 Z" fill="#EC4899"/>
+  <!-- Cup rim (top ellipse) -->
+  <ellipse cx="60" cy="40" rx="32" ry="10" fill="#F9A8D4"/>
+  <!-- Cup bottom base -->
+  <ellipse cx="60" cy="100" rx="24" ry="7" fill="#DB2777"/>
+  <!-- Saucer plate -->
+  <ellipse cx="60" cy="106" rx="38" ry="8" fill="#E2E8F0"/>
+  <ellipse cx="60" cy="106" rx="36" ry="6" fill="#F1F5F9"/>
+  <!-- Steam wisps -->
+  <path d="M44 32 Q40 22 44 14" stroke="#CBD5E1" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M60 28 Q56 18 60 10" stroke="#CBD5E1" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M76 32 Q80 22 76 14" stroke="#CBD5E1" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <!-- Handle -->
+  <path d="M90 52 Q108 52 108 68 Q108 84 90 84" stroke="#DB2777" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <!-- Cup shine / shine stripe -->
+  <rect x="34" y="50" width="8" height="40" rx="4" fill="white" opacity="0.18"/>
+  <!-- Floral decoration on cup -->
+  <circle cx="60" cy="72" r="8" fill="#F9A8D4" opacity="0.5"/>
+  <circle cx="60" cy="72" r="4" fill="#F472B6"/>
+</svg>
