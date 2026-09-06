@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Shadow -->
+  <ellipse cx="60" cy="116" rx="30" ry="4" fill="#0F172A" opacity="0.12"/>
+  <!-- Dice body -->
+  <rect x="20" y="24" width="80" height="80" rx="14" fill="#EF4444"/>
+  <!-- Dice 3D effect (dark bottom/right) -->
+  <rect x="26" y="30" width="74" height="74" rx="12" fill="#DC2626" opacity="0.5"/>
+  <!-- Dice face (top-left face) -->
+  <rect x="20" y="24" width="80" height="80" rx="14" fill="#EF4444"/>
+  <!-- Shine -->
+  <ellipse cx="44" cy="40" rx="16" ry="10" fill="white" opacity="0.15"/>
+  <!-- Dots for 6 (classic dice showing 5) -->
+  <circle cx="40" cy="44" r="7" fill="white"/>
+  <circle cx="80" cy="44" r="7" fill="white"/>
+  <circle cx="40" cy="64" r="7" fill="white"/>
+  <circle cx="80" cy="64" r="7" fill="white"/>
+  <circle cx="40" cy="84" r="7" fill="white"/>
+  <circle cx="80" cy="84" r="7" fill="white"/>
+</svg>

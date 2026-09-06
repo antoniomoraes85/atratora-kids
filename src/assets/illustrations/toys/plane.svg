@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Shadow -->
+  <ellipse cx="62" cy="116" rx="38" ry="4" fill="#0F172A" opacity="0.12"/>
+  <!-- Fuselage body -->
+  <ellipse cx="60" cy="72" rx="48" ry="16" fill="#3B82F6" transform="rotate(-8 60 72)"/>
+  <!-- Nose cone -->
+  <path d="M98 60 Q116 70 98 80 Z" fill="#1D4ED8"/>
+  <!-- Tail -->
+  <path d="M14 68 Q4 60 10 54 L28 66 Z" fill="#1D4ED8"/>
+  <!-- Vertical tail fin -->
+  <path d="M20 66 Q16 48 30 46 L32 60 Z" fill="#2563EB"/>
+  <!-- Wings -->
+  <path d="M50 72 Q40 48 18 52 L32 72 Z" fill="#60A5FA"/>
+  <path d="M68 72 Q80 48 102 52 L88 72 Z" fill="#60A5FA"/>
+  <!-- Wing shine -->
+  <path d="M52 70 Q44 54 26 56 L32 66 Z" fill="white" opacity="0.15"/>
+  <!-- Fuselage shine -->
+  <ellipse cx="68" cy="66" rx="18" ry="5" fill="white" opacity="0.18" transform="rotate(-8 68 66)"/>
+  <!-- Windows -->
+  <ellipse cx="72" cy="69" rx="5" ry="4" fill="#BFDBFE" transform="rotate(-8 72 69)"/>
+  <ellipse cx="84" cy="67" rx="5" ry="4" fill="#BFDBFE" transform="rotate(-8 84 67)"/>
+  <ellipse cx="60" cy="71" rx="5" ry="4" fill="#BFDBFE" transform="rotate(-8 60 71)"/>
+  <!-- Red stripe -->
+  <rect x="14" y="69" width="88" height="4" rx="2" fill="#EF4444" transform="rotate(-8 60 71)" opacity="0.8"/>
+  <!-- Propeller / front -->
+  <circle cx="104" cy="70" r="5" fill="#F59E0B"/>
+  <rect x="101" y="54" width="6" height="16" rx="3" fill="#F59E0B" transform="rotate(-20 104 62)"/>
+  <rect x="101" y="70" width="6" height="16" rx="3" fill="#F59E0B" transform="rotate(-20 104 78)"/>
+</svg>

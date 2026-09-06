@@ -54,6 +54,8 @@ export const LearningItemView: React.FC<LearningItemViewProps> = ({ items, defau
   }, [currentIndex]);
 
   // Auto-play animal/toy sound asset when item opens
+  // NOTE: soundAsset files are not distributed in this alpha.
+  // Auto-play is disabled; the button only appears when soundAsset is set.
   useEffect(() => {
     if (!currentItem?.soundAsset || didAutoPlay.current) return;
     if (!StorageService.getProgress().soundEnabled) return;
@@ -139,8 +141,16 @@ export const LearningItemView: React.FC<LearningItemViewProps> = ({ items, defau
           <NumberDots count={currentItem.numericValue} />
         )}
 
-        {/* Main label */}
-        <h2 className={styles.title}>{label}</h2>
+        {/* Main label — alphabet shows uppercase + lowercase; others show full label */}
+        {isAlphabet ? (
+          <div className={styles.alphabetLetters} aria-label={`Letra ${label}`}>
+            <span className={styles.letterUpper}>{label}</span>
+            <span className={styles.letterSpacer} aria-hidden="true" />
+            <span className={styles.letterLower}>{label.toLowerCase()}</span>
+          </div>
+        ) : (
+          <h2 className={styles.title}>{label}</h2>
+        )}
 
         {/* Alphabet: word example */}
         {isAlphabet && currentItem.wordExample && (
@@ -149,7 +159,7 @@ export const LearningItemView: React.FC<LearningItemViewProps> = ({ items, defau
           </p>
         )}
 
-        {/* Animal / toy sound button */}
+        {/* Animal / toy sound button — only renders when soundAsset exists */}
         {hasSound && soundBlocked && (
           <button
             type="button"
