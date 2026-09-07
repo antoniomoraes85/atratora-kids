@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { type RouteTab, Navigation } from '../Navigation/Navigation';
 import { StorageService, type AppLanguage } from '../../services/StorageService';
 import { AudioService } from '../../services/AudioService';
-import { AtriMascot } from '../Mascot/AtriMascot';
+import { LumiloMascot } from '../Mascot/LumiloMascot';
 import { Globe, Volume2, VolumeX, Star } from 'lucide-react';
 import styles from './AppShell.module.css';
 
@@ -62,7 +62,7 @@ export const AppShell: React.FC<AppShellProps> = ({
             }}
             aria-label="Ir para o Início — Lumilo"
           >
-            <AtriMascot size={40} expression="happy" />
+            <LumiloMascot size={40} expression="happy" />
             <div className={styles.brandTitles}>
               <span className={styles.brandTitle}>Lumilo</span>
             </div>

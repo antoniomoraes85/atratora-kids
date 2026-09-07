@@ -1,12 +1,12 @@
 import React from 'react';
 
-interface AtriMascotProps {
+interface LumiloMascotProps {
   size?: number | string;
   expression?: 'happy' | 'excited' | 'thinking' | 'star';
   className?: string;
 }
 
-export const AtriMascot: React.FC<AtriMascotProps> = ({
+export const LumiloMascot: React.FC<LumiloMascotProps> = ({
   size = 120,
   expression = 'happy',
   className = ''
