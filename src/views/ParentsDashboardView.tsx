@@ -44,7 +44,7 @@ export const ParentsDashboardView: React.FC<ParentsDashboardViewProps> = ({ lang
   };
 
   const T = {
-    title: { 'pt-BR': '👨‍👩‍👧 Área dos Responsáveis', 'en-US': '👨‍👩‍👧 Parents Area', 'es-ES': '👨‍👩‍👧 Área de Padres' },
+    title: { 'pt-BR': 'Área dos Responsáveis', 'en-US': 'Parents Area', 'es-ES': 'Área de Padres' },
     subtitle: { 'pt-BR': 'Acompanhe o progresso da criança', 'en-US': "Track your child's progress", 'es-ES': 'Sigue el progreso de tu hijo/a' },
     stars: { 'pt-BR': 'Estrelas Ganhas', 'en-US': 'Stars Earned', 'es-ES': 'Estrellas Ganadas' },
     explored: { 'pt-BR': 'Itens Explorados', 'en-US': 'Items Explored', 'es-ES': 'Ítems Explorados' },
